@@ -17,19 +17,13 @@ gswin64c.exe
 
 Irei salvá-los na pasta onde está instalado o smartclient.exe, ficando assim: C:\Totvs\Protheus2310\bin\smartclient\gs\
 
-# Sintaxe
+<img src="tela1.png">
 
+# Sintaxe
+```python
 gswin64.exe -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=c:\arquivomesclado.pdf -dBATCH arquivo1.pdf arquivo2.pdf
 
 -dNOPAUSE = Desativa o prompt e pausa no final de cada página.
 -sDEVICE = Informe o dispositivo de saida (pdfwrite para gerar um arquivo PDF)
 -dBATCH = arquivos que serão mesclados
-
-
-
-
-
-
-
-
-
+```
