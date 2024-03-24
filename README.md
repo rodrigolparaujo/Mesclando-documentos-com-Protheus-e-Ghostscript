@@ -1,5 +1,7 @@
 # Mesclando documentos PDF com Protheus e Ghostscript
 
+<img src="mesclar documento com protheus.gif">
+
 # Ghostscript 
 
 Ghostscript é um intérprete para a linguagem PostScript®  e arquivos PDF . Ele está disponível sob a licença GNU GPL Affero ou  licenciado para uso comercial pela Artifex Software, Inc. Ele está em desenvolvimento ativo há mais de 30 anos e foi portado para vários sistemas diferentes durante esse período. Ghostscript consiste em uma camada de interpretação PostScript e uma biblioteca gráfica.
