@@ -1,6 +1,12 @@
 # Mesclando documentos PDF com Protheus e Ghostscript
 
+**Mesclando arquivos**
+> Fonte: MesclaDocumentosPDF.prw
 <img src="mesclar documento com protheus.gif">
+
+**Criando documentos PDF e Mesclando os arquivos criados**
+> Fonte: CriandoDocumentoPDFeMesclando.prw
+<img src="criando documento com protheus e mesclando arquivos.gif">
 
 # Ghostscript 
 
@@ -12,10 +18,10 @@ Download Ghostscript https://www.ghostscript.com/releases/gsdnld.html
 Para realizar a mesclagem de documentos usando Protheus e Ghostscript, precisaremos baixar as DLL's do Ghostscript
 
 Neste exemplo, precisarei apenas dos seguintes arquivos do Ghostscript:
-gsdll64.dll
-gsdll64.lib
-gswin64.exe
-gswin64c.exe
++ gsdll64.dll
++ gsdll64.lib
++ gswin64.exe
++ gswin64c.exe
 
 Irei salvá-los na pasta onde está instalado o smartclient.exe, ficando assim: C:\Totvs\Protheus2310\bin\smartclient\gs\
 
