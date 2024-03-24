@@ -23,16 +23,13 @@ User Function Exp0033()
 	cGsWin64 := cDrive+cDir + "gs\gswin64.exe"
 
 	If !File(cGsWin64)
-		MsgStop("O plugin GSWIN64.EXE não existe!","ATENÇÃO")
+		MsgStop("O arquivo GSWIN64.EXE não existe!","ATENÇÃO")
 		Return
-	Endif
-
-	If File(cGsWin64) //localizar o arquivo gswin64.exe
+	Else
 		cDestino := tFileDialog( "", 'Selecione Pasta de Destino',, "C:\LocalData\Mesclar Aquivos\", .F.,  GETF_RETDIRECTORY  )
         cDestino := IIF(Right(cDestino,1)=="\", cDestino, cDestino + "\")
 
 		If ExistDir(cDestino)
-
 			cArquivos := TFileDialog( "Arquivos PDF (*.pdf)",'Selecione os arquivos',,'C:\LocalData\Mesclar Aquivos',.F.,GETF_MULTISELECT)
 			aArquivos := Separa(cArquivos,";")
 
@@ -59,10 +56,7 @@ User Function Exp0033()
 				If File(cDestino + cMesclado)
 					fErase(cDestino + "mesclarpdf.bat")
 				Endif
-
 			Endif
-
 		Endif
-
 	Endif
 Return
