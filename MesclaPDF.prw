@@ -1,12 +1,13 @@
+<code>
 #INCLUDE "PROTHEUS.CH"
 
-/*/{Protheus.doc} MesclaPDF
+/*/{Protheus.doc} Exp0033
 Mesclando arquivos usando usando 
 @type function
 @author Rodrigo Araujo
 @since 24/03/2024
 /*/
-User Function MesclaPDF()
+User Function Exp0033()
 	Local cDrive, cDir, cExt, cNome
 	Local i:= 0
 	Local cDestino  := ""
@@ -66,3 +67,5 @@ User Function MesclaPDF()
 
 	Endif
 Return
+
+</code>
