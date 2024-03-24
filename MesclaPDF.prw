@@ -1,4 +1,3 @@
-<code>
 #INCLUDE "PROTHEUS.CH"
 
 /*/{Protheus.doc} Exp0033
@@ -67,5 +66,3 @@ User Function Exp0033()
 
 	Endif
 Return
-
-</code>
