@@ -35,3 +35,4 @@ gswin64.exe -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=c:\arquivomesclado.pdf -dBA
 -sDEVICE = Informe o dispositivo de saida (pdfwrite para gerar um arquivo PDF)
 -dBATCH = arquivos que serão mesclados
 ```
+<center><p><a href="https://dayz-servers.org/server/170059/"><img src="https://dayz-servers.org/server/170059/banners/leaderboard-1.png" border="0" class="img-fluid"></a></p></center>
